@@ -1,0 +1,138 @@
+.Home{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.title{
+    color: #fff;
+    padding: 16px;
+    h1,p{
+        text-align: center;
+    }
+    h1{
+        margin: 200px 0 8px;
+        font-size: 60px;
+    }
+    span{
+        position: absolute;
+        
+    }
+}
+
+.sidebar{
+    width: 270px;
+    background-color: black;
+    height: 100%;
+    left: -270px;
+    a{
+        display: block;
+        padding: 10px 20px 0 40px;
+        font-size: 25px;
+        text-decoration: none;
+        &:hover{
+            color: #D62E33 !important;
+        }
+    }
+}
+
+
+/* ! section 2  */
+.box1{
+    padding: 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 50%;
+    margin-bottom: 75px;
+    h3{
+        margin: 0;
+        padding: 7px;
+        background-color: rgba(214, 46, 51, 0.6);
+    }
+}
+.inner{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+.inner.first{
+    display: block;
+}
+
+.section2{
+    background-image:linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)), url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    padding: 100px 0;
+}
+.overlay2{
+    color: #FFF;
+    font-size: 30px;
+}
+
+.card{
+    background: transparent;
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.endSection{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.info-contact{
+    margin-top: 50px;
+    p{
+        margin-bottom: 35px;
+    }
+}
+
+.iconContact span{
+    width: 40px ;
+    height: 40px;
+    line-height: 42px;
+    color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #999;
+    &:hover{
+        background-color: #d62e33;
+        color: white;
+        border-color: #d62e33;
+    }
+}
+
+.height-38{
+    height: 38px;
+}
+.maxh{
+    height: 200px;
+    resize: vertical;
+}
+.contact-btn{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+}
+.col-md-6 input:focus ,textarea:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
+}
+
+ul{
+    list-style: none;
+}
